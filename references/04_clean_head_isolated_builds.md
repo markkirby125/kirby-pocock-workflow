@@ -3,7 +3,7 @@
 *Source: Matt Pocock v1.3 via The Hype Kevin.*
 
 ### **4.1 One Clean Head Per Ticket**
-Every ticket executes in a **complete isolation context**: a fresh conversation/agent context (or a dedicated git worktree when the working tree must also be isolated) seeded with ONLY the ticket's context manifest (M3 §3.4.3). No prior session memory, no unrelated codebase chatter, no accumulated conversation drift. The builder starts each ticket with 100% of its attention budget on the functional spec.
+Every ticket executes in a **complete isolation context**: a fresh conversation/agent context (or a dedicated git worktree when the working tree must also be isolated) seeded with ONLY the ticket's context manifest (M3 §3.4 item 3). No prior session memory, no unrelated codebase chatter, no accumulated conversation drift. The builder starts each ticket with 100% of its attention budget on the functional spec.
 
 ### **4.2 Standards Concealment**
 Exhaustive codebase coding standards are **hidden from the implementer**. Rationale: standards documents compete for the same attention window as the ticket itself; a builder juggling a 3,000-line conventions file is a builder drifting out of the Smart Zone. Standards enforcement moves downstream to Desk 2 (M5) and to deterministic tooling (linters/hooks — M7), which check conventions perfectly and cost zero builder attention.
