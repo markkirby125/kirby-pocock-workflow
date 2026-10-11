@@ -4,7 +4,7 @@ description: "Use when executing Matt Pocock's spec-driven engineering pipeline:
 category: technique
 triggers: [pocock-workflow, spec-driven, grilling, grill-with-docs, glossary, to-spec, to-tickets, smart-zone, clean-head, two-desk-review, merge-danger, retro, silent-guess]
 risk: unverified
-author: william-fitzpatrick
+author: paul-kirby
 tags: [kirby, ai-agent, workflow]
 ---
 
